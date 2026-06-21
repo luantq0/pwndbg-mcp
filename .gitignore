@@ -1,0 +1,48 @@
+# AI / editor state
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+uv.lock
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GDB artifacts
+core
+core.*
+*.core
+.gdb_history
+
+# Playwright MCP screenshots/artifacts
+.playwright-mcp/
+
+# Temporary debug files
+/workspace/

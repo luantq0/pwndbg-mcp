@@ -1,0 +1,23 @@
+# Normalize line endings to LF on commit, check out as LF everywhere
+* text=auto eol=lf
+
+# Python source files
+*.py   text eol=lf
+
+# Shell scripts
+*.sh   text eol=lf
+
+# Config and markup
+*.toml text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.cfg  text eol=lf
+*.ini  text eol=lf
+
+# Binary assets — never mangle
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ico  binary
+*.whl  binary
